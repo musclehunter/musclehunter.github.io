@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-white font-main;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md transition-all duration-300 font-bold;
+  }
+  .btn-martial {
+    @apply bg-martial hover:bg-martial/80 text-white;
+  }
+  .btn-coding {
+    @apply bg-coding hover:bg-coding/80 text-white;
+  }
+  .btn-gaming {
+    @apply bg-gaming hover:bg-gaming/80 text-white;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-cyber font-bold mb-6 tracking-wider;
+  }
+}
