@@ -4,6 +4,7 @@
     <main>
       <Hero />
       <AboutSection />
+      <ProjectsSection />
       <SkillsSection />
       <SocialSection />
     </main>
@@ -17,5 +18,6 @@ import Hero from './components/Hero.vue';
 import AboutSection from './components/AboutSection.vue';
 import SkillsSection from './components/SkillsSection.vue';
 import SocialSection from './components/SocialSection.vue';
+import ProjectsSection from './components/ProjectsSection.vue';
 import Footer from './components/Footer.vue';
 </script>
