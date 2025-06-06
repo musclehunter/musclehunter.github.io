@@ -6,6 +6,7 @@
       </div>
       <div class="hidden md:flex space-x-6">
         <a href="#about" class="text-white hover:text-martial transition-colors">About</a>
+        <a href="#projects" class="text-white hover:text-martial transition-colors">Projects</a>
         <a href="#skills" class="text-white hover:text-coding transition-colors">Skills</a>
         <a href="#social" class="text-white hover:text-gaming transition-colors">Social</a>
       </div>
@@ -20,6 +21,7 @@
     <div v-if="isMenuOpen" class="md:hidden bg-black/90 backdrop-blur-md py-4">
       <div class="container mx-auto px-4 flex flex-col space-y-3">
         <a @click="isMenuOpen = false" href="#about" class="text-white hover:text-martial transition-colors">About</a>
+        <a @click="isMenuOpen = false" href="#projects" class="text-white hover:text-martial transition-colors">Projects</a>
         <a @click="isMenuOpen = false" href="#skills" class="text-white hover:text-coding transition-colors">Skills</a>
         <a @click="isMenuOpen = false" href="#social" class="text-white hover:text-gaming transition-colors">Social</a>
       </div>
